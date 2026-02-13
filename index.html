@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 JP OSAKA</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #e63946;
+            --secondary-color: #f1faee;
+            --accent-color: #457b9d;
+            --bg-color: #f8f9fa;
+            --text-color: #1d3557;
+        }
+
+        body {
+            font-family: "PingFang TC", "Microsoft JhengHei", sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(135deg, #e63946, #457b9d);
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            background: white;
+            display: flex;
+            overflow-x: auto;
+            white-space: nowrap;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--text-color);
+            padding: 8px 15px;
+            margin: 0 5px;
+            border-radius: 20px;
+            background: var(--secondary-color);
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+
+        .day-card {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            border-left: 8px solid var(--primary-color);
+        }
+		p {
+			font-size: 16px;
+			margin: 5px 0;
+		}
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        h2 i { margin-right: 10px; }
+
+        .item {
+            display: flex;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px dashed #eee;
+        }
+
+        .time {
+            min-width: 90px;
+            font-weight: bold;
+            color: var(--accent-color);
+        }
+
+        .content { flex: 1; }
+
+        .tag {
+            display: inline-block;
+            background: #ffe5ec;
+            color: #d90429;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+
+        .note {
+            background: #fff3cd;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 13px;
+            margin-top: 10px;
+            border-left: 4px solid #ffc107;
+        }
+
+        .important {
+            color: #d90429;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+            color: #888;
+        }
+
+        @media (max-width: 600px) {
+            .item { flex-direction: column; }
+            .time { margin-bottom: 5px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>2026 JP OSAKA</h1>
+    <p>3/08 - 3/14 | 虎航 X4ERSI</p>
+</header>
+
+<nav>
+    <a href="#day1">Day 1</a>
+    <a href="#day2">Day 2</a>
+    <a href="#day3">Day 3</a>
+    <a href="#day4">Day 4</a>
+    <a href="#day5">Day 5</a>
+    <a href="#day6">Day 6</a>
+    <a href="#day7">Day 7</a>
+</nav>
+
+<div class="container">
+    
+<section id="day1" class="day-card">
+        <h2><i class="fa-solid fa-plane"></i> Day 1：3/08 (日) 啟程與購物</h2>
+        
+        <div class="item">
+            <div class="time">07:00-10:25</div>
+            <div class="content">
+                <strong>桃園機場 ✈ 關西機場 (IT210)</strong><br>
+                <span class="tag">虎航代號：X4ERSI</span> <span class="tag">飛行時間：7:00-10:25</span> <span class="tag">座位：9A, 9B</span>
+                <p>🧳 行李限重：20kg | 📋 記得填寫 VJW 且抵達後加買 VSJ 保險</p>
+                <div class="note">
+                    <strong>🌟 入境 5 步驟：</strong><br>
+                    1. 下機後準備 VJW QR Code<br>
+                    2. 掃碼、按指紋、拍照 (走藍A通道)<br>
+                    3. 人工通道出示護照，通過入境審查<br>
+                    4. 行李轉盤領行李<br>
+                    5. 海關認臉走出去(藍A通道)
+                </div>
+            </div>
+        </div>
+
+		<div class="item">
+            <div class="time">11:00</div>
+            <div class="content">
+                <strong>搭乘南海電鐵「特急 Rapi:t」</strong><br>
+                <span class="tag">票價：¥1490</span> <span class="tag">車程：約 34min</span>
+                
+                <p>🕒 <strong>建議班次：</strong><br>
+                11:05~11:43 / 11:35~12:14 / 12:05~12:45</p>
+
+                <div class="note">
+                    <strong>🎫 特急Rapi:t 自動售票機購票步驟：</strong><br>
+                    1. 點選「購買特急券」→「南海線」→「難波-OK」<br>
+                    2. 選擇「時間、人數、座位」<br>
+                    3. <strong>關鍵按鈕：</strong>選擇下方最大顆的 <span class="important">「特急券 + 乘車券」</span><br>
+                    <small>*（除非已有其他一日券，才單買特急券）*</small>
+                </div>
+                <div class="note" style="border-left-color: #2a9d8f;">
+                    <strong>💳 購買 ICOCA (必備交通卡)：</strong><br>
+                    • <strong>金額：</strong>¥2000 (內含 ¥1500 額度 + ¥500 押金)<br>
+                    • <strong>地點：</strong>JR 綠色窗口或 ICOCA 自動售票機<br>
+                    • <a href="https://www.instagram.com/reel/DTDVilQj9-l/?igsh=azR2aWMxaDM4Zm5o" target="_blank" style="color: #457b9d; text-decoration: underline;"><i class="fa-brands fa-instagram"></i> 點我看購買教學影片</a>
+                </div>
+                <div class="note" style="border-left-color: #457b9d; background: #eef6fb;">
+                    <strong>🔒 行李架（附鎖鋼索）教學：</strong><br>
+                    • <strong>位置：</strong>車廂出入口處<br>
+                    • <strong>上鎖：</strong>轉動鑰匙 → 鋼索鎖頭彈出 → 穿過行李把手 → 插回鎖孔 → 轉回原位 → <span class="important">拔出鑰匙隨身攜帶</span><br>
+                    • <strong>取件：</strong>插入鑰匙解鎖即可
+                </div>
+
+                <p>📍 <strong>抵達難波：</strong><br>
+                Rapi:t 會停在 9 號月台 (3F)，下車後請<strong>直走「北出口」</strong>。</p>
+
+            </div>
+        </div>
+		
+		<div class="item">
+            <div class="time">12:00</div>
+            <div class="content">
+                <strong>轉乘：大阪地下鐵 - M 御堂筋線</strong><br>
+                
+                <p>🚶 <strong>步行路線：</strong><br>
+                南海難波 (3F/2F) → 沿指標往「地下鐵 難波站」 → <strong>2 號月台</strong> (往梅田、千里中央方向)</p>
+
+				<p>🚇 <strong>乘車資訊：</strong><br>
+                <span class="tag" style="background: #e63946; color: white;">[紅色] 御堂筋線</span>
+                <span class="tag">票價：¥190</span> 
+                <a href="https://img.gototravel.tw/2019/kyoto/transport/Hashidate-train/Image%2015.jpg" target="_blank" style="color: #457b9d; font-size: 13px; font-weight: bold; text-decoration: underline;">🗺️ [點擊查看]地鐵路線圖</a>
+                <br>
+                難波站 (M20) → <strong>心齋橋站 (M19)</strong> (搭 1 站就到)</p>
+                <p>📍 <strong>下車後：</strong><br>
+                從心齋橋站步行前往「心齋橋長堀通哈頓酒店」。</p>
+				
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="time">13:00</div>
+            <div class="content">
+                <strong>心齋橋長堀通哈頓酒店</strong><br>
+                <p>寄放行李、支付住宿費</p>
+            </div>
+        </div>
+
+	<div class="item">
+    <div class="time">13:30</div> <div class="content">
+        <strong>午餐選擇：雞 Soba 座銀 / 八百屋</strong><br>
+        <p>可順路踩點：難波神社 | 營業時間：10:00–23:00</p>
+        
+        <details style="border: 1px solid #ddd; border-radius: 8px; padding: 10px; background: #fff; margin-bottom: 10px;">
+            <summary style="cursor: pointer; font-weight: bold; color: var(--accent-color);">
+                點我看「雞 Soba 座銀」詳細菜單 🍜
+            </summary>
+            <div style="overflow-x: auto;">
+                <table style="width: 100%; border-collapse: collapse; font-size: 11px; margin-top: 10px; border: 1px solid #ddd;">
+                    <tr style="background: #f1faee; text-align: left;">
+                        <th style="padding: 5px; border: 1px solid #ddd;">類別</th>
+                        <th style="padding: 5px; border: 1px solid #ddd;">組合項目</th>
+                        <th style="padding: 5px; border: 1px solid #ddd;">價格</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="4" style="padding: 5px; border: 1px solid #ddd; background: #fafafa;">雞 Soba<br>(雞白湯)</td>
+                        <td style="padding: 5px; border: 1px solid #ddd;">拉麵 + 肉壽司</td>
+                        <td style="padding: 5px; border: 1px solid #ddd;">¥1,380</td>
+                    </tr>
+                    <tr><td style="padding: 5px; border: 1px solid #ddd;">特製 (配料全加)</td><td style="padding: 5px; border: 1px solid #ddd;">¥1,410</td></tr>
+                    <tr><td style="padding: 5px; border: 1px solid #ddd;">拉麵 + 炸雞 (2塊)</td><td style="padding: 5px; border: 1px solid #ddd;">¥1,190</td></tr>
+                    <tr><td style="padding: 5px; border: 1px solid #ddd;">雞 Soba (單點)</td><td style="padding: 5px; border: 1px solid #ddd;">¥990</td></tr>
+                    <tr>
+                        <td rowspan="4" style="padding: 5px; border: 1px solid #ddd; background: #fafafa;">雞肉沾麵</td>
+                        <td style="padding: 5px; border: 1px solid #ddd;">沾麵 + 肉壽司</td>
+                        <td style="padding: 5px; border: 1px solid #ddd;">¥1,410</td>
+                    </tr>
+                    <tr><td style="padding: 5px; border: 1px solid #ddd;">特製 雞肉沾麵</td><td style="padding: 5px; border: 1px solid #ddd;">¥1,440</td></tr>
+                    <tr><td style="padding: 5px; border: 1px solid #ddd;">沾麵 + 炸雞 (2塊)</td><td style="padding: 5px; border: 1px solid #ddd;">¥1,220</td></tr>
+                    <tr><td style="padding: 5px; border: 1px solid #ddd;">雞肉沾麵 (單點)</td><td style="padding: 5px; border: 1px solid #ddd;">¥1,020</td></tr>
+                    <tr>
+                        <td rowspan="4" style="padding: 5px; border: 1px solid #ddd; background: #fafafa;">小魚乾吟釀<br>(濃郁魚介)</td>
+                        <td style="padding: 5px; border: 1px solid #ddd;">拉麵 + 肉壽司</td>
+                        <td style="padding: 5px; border: 1px solid #ddd;">¥1,640</td>
+                    </tr>
+                    <tr><td style="padding: 5px; border: 1px solid #ddd;">特製 小魚乾吟釀</td><td style="padding: 5px; border: 1px solid #ddd;">¥1,670</td></tr>
+                    <tr><td style="padding: 5px; border: 1px solid #ddd;">拉麵 + 炸雞 (2塊)</td><td style="padding: 5px; border: 1px solid #ddd;">¥1,450</td></tr>
+                    <tr><td style="padding: 5px; border: 1px solid #ddd;">小魚乾 (單點)</td><td style="padding: 5px; border: 1px solid #ddd;">¥1,250</td></tr>
+                </table>
+            </div>
+        </details>
+
+        <details style="border: 1px solid #ddd; border-radius: 8px; padding: 10px; background: #fff;">
+            <summary style="cursor: pointer; font-weight: bold; color: var(--accent-color);">
+                點我看「八百屋」圖片菜單 🍱
+            </summary>
+            <div style="margin-top: 10px; text-align: center;">
+                <p>八百屋とごはん もりした</p>
+                <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwer6EhXLJ0xn6KWOhqmAmwVcOzkhmqpqYs29E5nvMKR_Wt9Csqm-TEfLuxkD3X65ejcY6vubuVh4GiHRHnemrNeEtMAPGBaOsLtKbLI097n2sykwogR8IRI-TbxkWaICyqg5yUYmsPHfHo_3=s1360-w1360-h1020-rw" alt="八百屋菜單" style="max-width: 100%; height: auto; border-radius: 5px; border: 1px solid #eee;">
+            </div>
+        </details>
+    </div>
+	</div>
+
+        <div class="item">
+            <div class="time">13:30</div>
+            <div class="content">
+                <strong>午餐：雞 Soba 座銀 / 八百屋</strong><br>
+                <p>可順路踩點：難波神社</p>
+                
+                <details style="border: 1px solid #ddd; border-radius: 8px; padding: 10px; background: #fff;">
+                    <summary style="cursor: pointer; font-weight: bold; color: var(--accent-color);">
+                        🍜 點我看「雞 Soba 座銀」完整菜單
+                    </summary>
+                    <div style="overflow-x: auto;">
+                        <table style="width: 100%; border-collapse: collapse; font-size: 11px; margin-top: 10px; border: 1px solid #ddd;">
+                            <tr style="background: #f1faee; text-align: left;">
+                                <th style="padding: 5px; border: 1px solid #ddd;">類別</th>
+                                <th style="padding: 5px; border: 1px solid #ddd;">組合項目</th>
+                                <th style="padding: 5px; border: 1px solid #ddd;">價格</th>
+                            </tr>
+                            <tr>
+                                <td rowspan="4" style="padding: 5px; border: 1px solid #ddd; background: #fafafa;">雞 Soba<br>(雞白湯)</td>
+                                <td style="padding: 5px; border: 1px solid #ddd;">拉麵 + 肉壽司</td>
+                                <td style="padding: 5px; border: 1px solid #ddd;">¥1,380</td>
+                            </tr>
+                            <tr><td style="padding: 5px; border: 1px solid #ddd;">特製 (配料全加)</td><td style="padding: 5px; border: 1px solid #ddd;">¥1,410</td></tr>
+                            <tr><td style="padding: 5px; border: 1px solid #ddd;">拉麵 + 炸雞 (2塊)</td><td style="padding: 5px; border: 1px solid #ddd;">¥1,190</td></tr>
+                            <tr><td style="padding: 5px; border: 1px solid #ddd;">雞 Soba (單點)</td><td style="padding: 5px; border: 1px solid #ddd;">¥990</td></tr>
+                            <tr>
+                                <td rowspan="4" style="padding: 5px; border: 1px solid #ddd; background: #fafafa;">雞肉沾麵</td>
+                                <td style="padding: 5px; border: 1px solid #ddd;">沾麵 + 肉壽司</td>
+                                <td style="padding: 5px; border: 1px solid #ddd;">¥1,410</td>
+                            </tr>
+                            <tr><td style="padding: 5px; border: 1px solid #ddd;">特製 雞肉沾麵</td><td style="padding: 5px; border: 1px solid #ddd;">¥1,440</td></tr>
+                            <tr><td style="padding: 5px; border: 1px solid #ddd;">沾麵 + 炸雞 (2塊)</td><td style="padding: 5px; border: 1px solid #ddd;">¥1,220</td></tr>
+                            <tr><td style="padding: 5px; border: 1px solid #ddd;">雞肉沾麵 (單點)</td><td style="padding: 5px; border: 1px solid #ddd;">¥1,020</td></tr>
+                            <tr>
+                                <td rowspan="4" style="padding: 5px; border: 1px solid #ddd; background: #fafafa;">小魚乾吟釀<br>(濃郁魚介)</td>
+                                <td style="padding: 5px; border: 1px solid #ddd;">拉麵 + 肉壽司</td>
+                                <td style="padding: 5px; border: 1px solid #ddd;">¥1,640</td>
+                            </tr>
+                            <tr><td style="padding: 5px; border: 1px solid #ddd;">特製 小魚乾吟釀</td><td style="padding: 5px; border: 1px solid #ddd;">¥1,670</td></tr>
+                            <tr><td style="padding: 5px; border: 1px solid #ddd;">拉麵 + 炸雞 (2塊)</td><td style="padding: 5px; border: 1px solid #ddd;">¥1,450</td></tr>
+                            <tr><td style="padding: 5px; border: 1px solid #ddd;">小魚乾 (單點)</td><td style="padding: 5px; border: 1px solid #ddd;">¥1,250</td></tr>
+                        </table>
+                    </div>
+                </details>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="time">下午</div>
+            <div class="content">
+                <strong>購物馬拉松</strong><br>
+                <p>心齋橋 → 道頓堀 (水上觀光船) → 戎橋筋 / 高島屋 / 丸井</p>
+                
+                <div class="note">
+                    ⚠️ <strong>重要提醒：</strong><br>
+                    • 退稅信用卡名字必須與護照一致！<br>
+                    • 高島屋憑護照可領 95 折券。
+                </div>
+
+                <details style="border: 1px solid #ddd; border-radius: 8px; padding: 10px; background: #fff; margin-top: 10px;">
+                    <summary style="cursor: pointer; font-weight: bold; color: var(--accent-color);">
+                        🛍️ 查看詳細逛街攻略 (各區必買)
+                    </summary>
+                    <div style="font-size: 13px; margin-top: 10px;">
+                        <strong>📍 心齋橋</strong>
+                        <ul style="padding-left: 20px; margin: 5px 0;">
+                            <li><span class="important">宇治園抹茶</span>、Cremia冰淇淋</li>
+                            <li>SENSE OF PLACE、Le Croissant可頌</li>
+                            <li>LILO Coffee、Shabuwara</li>
+                            <li><span class="important">GREEN BAR 抹茶可麗餅</span></li>
+                        </ul>
+
+                        <strong>📍 道頓堀</strong>
+                        <ul style="padding-left: 20px; margin: 5px 0;">
+                            <li><span class="important">固力果跑跑人、水上觀光船</span></li>
+                            <li>炸牛 元村 (難波御堂筋店)</li>
+                            <li><span class="important">福太郎大阪燒、美津の大阪燒</span></li>
+                            <li><span class="important">本家大たこ章魚燒、大起水產迴轉壽司</span></li>
+                        </ul>
+
+                        <strong>📍 戎橋筋商店街</strong>
+                        <ul style="padding-left: 20px; margin: 5px 0;">
+                            <li>藥妝店、扭蛋、老爺爺起司蛋糕店</li>
+                            <li>LUNA/Heartdance飾品、<span class="important">tutuanna光腿神器</span></li>
+                            <li><span class="important">Onitsuka鬼塚虎</span>、Cosme</li>
+                        </ul>
+
+                        <strong>📍 0101丸井百貨</strong>
+                        <ul style="padding-left: 20px; margin: 5px 0;">
+							<li>從難波站一號出口旁的戎橋筋商店進去</li>
+                            <li>2F Sac’s Bar聯名包</li>
+                            <li>4F Seria百元商店</li>
+                        </ul>
+
+                        <strong>📍 高島屋</strong>
+                        <ul style="padding-left: 20px; margin: 5px 0;">
+                            <li><span class="important">PRESS BUTTER SAND (B1 星巴克對面)</span></li>
+                        </ul>
+
+                        <strong>📍 其他購買</strong>
+                        <ul style="padding-left: 20px; margin: 5px 0;">
+                            <li><span class="important">Workman (買弟弟的黑鞋)</span></li>
+                        </ul>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <section id="day2" class="day-card" style="border-left-color: #2a9d8f;">
+        <h2><i class="fa-solid fa-landmark"></i> Day 2：3/09 (一) 大阪城地區</h2>
+		<div class="item">
+            <div class="time">08:09</div>
+            <div class="content">
+                <strong>交通：心齋橋站 → 大阪商務園區站</strong><br>
+                <span class="tag" style="background:#90ee90; color:#1d3557;">[N] 長堀鶴見綠地線 ¥240</span>
+				<span class="tag">使用大阪周遊卡</span>
+                <p>🚇 <strong>乘車資訊：</strong><br>
+                    心齋橋站 (N15) → <strong>大阪商務園區站 (N21)</strong> 
+                    <a href="https://img.gototravel.tw/2019/kyoto/transport/Hashidate-train/Image%2015.jpg" target="_blank" style="color: #457b9d; font-size: 13px; font-weight: bold; text-decoration: underline;">🗺️ [點擊查看]地鐵路線圖</a>
+                </p>
+
+                <div class="note" style="border-left-color: #2a9d8f; background: #f1faee;">
+                    <strong>🔍 鐵道工程筆記：</strong><br>
+                    • <strong>河底隧道：</strong>森之宮站 (N20) ↔ 大阪商務園區站 (N21) 區間會鑽過第二寢屋川，採全程地下隧道過河。<br>
+                    • <strong>極深車站：</strong>為了避開河道與既有線路，「大阪商務園區站」深度達 <span class="important">地下 32.3 公尺</span>（約 10 層樓深）。<br>
+                    • <strong>歷史地位：</strong>曾是大阪地鐵最深的車站，目前排名全日第二（僅次於東京大江戶線）。
+                </div>
+            </div>
+        </div>
+		<div class="item">
+            <div class="time">08:30</div>
+            <div class="content">
+                <strong>早餐：Tully’s Coffee 大阪城公園駅前店</strong><br>
+                <p>
+                    <a href="https://www.tullys.co.jp/menu/drink/" target="_blank" style="color: #457b9d; font-size: 13px; font-weight: bold; text-decoration: underline;">📖 官方飲品菜單</a> ｜ 
+                    <a href="https://www.tullys.co.jp/menu/customize/#itemList" target="_blank" style="color: #457b9d; font-size: 13px; font-weight: bold; text-decoration: underline;">☕ 官方客製化介紹</a>
+                </p>
+
+                <details style="border: 1px solid #ddd; border-radius: 8px; padding: 10px; background: #fff; margin-top: 10px;">
+                    <summary style="cursor: pointer; font-weight: bold; color: var(--accent-color);">
+                        📝 點餐小撇步(中日羅)
+                    </summary>
+                    <div style="overflow-x: auto;">
+                        <table style="width: 100%; border-collapse: collapse; font-size: 12px; margin-top: 10px; border: 1px solid #ddd;">
+                            <tr style="background: #f1faee; text-align: left;">
+                                <th style="padding: 6px; border: 1px solid #ddd; width: 20%;">項目</th>
+                                <th style="padding: 6px; border: 1px solid #ddd;">日文 / 羅馬拼音</th>
+                                <th style="padding: 6px; border: 1px solid #ddd;">說明</th>
+                            </tr>
+                            <tr>
+                                <td style="padding: 6px; border: 1px solid #ddd; font-weight: bold;">尺寸</td>
+                                <td style="padding: 6px; border: 1px solid #ddd;">Short / Tall / Grande</td>
+                                <td style="padding: 6px; border: 1px solid #ddd;">小 / 中 / 大</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2" style="padding: 6px; border: 1px solid #ddd; font-weight: bold; background: #fafafa;">冰熱</td>
+                                <td style="padding: 6px; border: 1px solid #ddd;">氷なしで (Kōri nashi de)</td>
+                                <td style="padding: 6px; border: 1px solid #ddd;">去冰</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 6px; border: 1px solid #ddd;">ぬるめで (Nurume de)</td>
+                                <td style="padding: 6px; border: 1px solid #ddd;">溫的 / 不要太燙</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2" style="padding: 6px; border: 1px solid #ddd; font-weight: bold; background: #fafafa;">甜度</td>
+                                <td style="padding: 6px; border: 1px solid #ddd;">砂糖少なめで (Satō sukuname de)</td>
+                                <td style="padding: 6px; border: 1px solid #ddd;">少糖</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 6px; border: 1px solid #ddd;">無糖で (Mutō de)</td>
+                                <td style="padding: 6px; border: 1px solid #ddd;">無糖</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2" style="padding: 6px; border: 1px solid #ddd; font-weight: bold; background: #fafafa;">加購</td>
+                                <td style="padding: 6px; border: 1px solid #ddd;">抹茶ショット追加 (Matcha shotto tsuika)</td>
+                                <td style="padding: 6px; border: 1px solid #ddd;">+ 抹茶濃縮</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 6px; border: 1px solid #ddd;">ミルク追加 (Miruku tsuika)</td>
+                                <td style="padding: 6px; border: 1px solid #ddd;">+ 奶</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 6px; border: 1px solid #ddd; font-weight: bold;">其他</td>
+                                <td style="padding: 6px; border: 1px solid #ddd;">ストローをください (Sutorō o kudasai)</td>
+                                <td style="padding: 6px; border: 1px solid #ddd;">我要吸管</td>
+                            </tr>
+                        </table>
+                    </div>
+                </details>
+
+                <p style="margin-top: 10px;">🌟 <strong>推薦品項：</strong><br>
+                    • 飲：皇家奶茶、抹茶、珍珠系列<br>
+                    • 食：蛋沙拉、鬆餅、熱狗、義大利麵
+                </p>
+            </div>
+        </div>
+		<div class="item">
+            <div class="time">09:30</div>
+            <div class="content">
+                <strong>景點：大阪城御座船</strong><br>
+                <span class="tag" style="background: #ffe5ec; color: #d90429;">大阪周遊卡 (免費)</span>
+                <p>📍 <strong>購票資訊：</strong>售票時間 09:30 開始 (建議先兌換以免客滿)</p>
+                <p>🕒 <strong>營業時間：</strong>10:00～16:30 (末班發船)，遊河時間約 20min</p>
+                <p>💰 <strong>一般費用：</strong>1,800 日圓</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="time">11:00</div>
+            <div class="content">
+                <strong>景點：大阪城天守閣、西之丸庭園</strong><br>
+                <span class="tag" style="background: #ffe5ec; color: #d90429;">大阪周遊卡 (免費)</span>
+                <p>🕒 <strong>營業時間：</strong>10:00～16:30 (最後入館 16:30)</p>
+                <p>💰 <strong>一般費用：</strong>1,200 日圓起</p>
+                <p>🎟️ <strong>入場方式：</strong>使用周遊卡快速通關，掃描 QR (若掃錯 QR 會顯示紅色)</p>
+                
+				<details style="border: 1px solid #ddd; border-radius: 8px; padding: 10px; background: #fff; margin-top: 10px;">
+                    <summary style="cursor: pointer; font-weight: bold; color: var(--accent-color);">
+                        🏰 天守閣攻略與配置
+                    </summary>
+                    <div style="font-size: 13px; margin-top: 10px;">
+                        • <strong>8F 展望台：</strong>必去景點！俯瞰大阪城全景。<br>
+                        • <strong>室內配置：</strong>2F 有廁所、3/4F 禁止拍照、電梯僅到 5F (需再走樓梯至 8F)。<br>
+                        • <strong>特別開放：</strong>2 棟建築 (多聞、千貫) 2025/3/1 - 3/30 特別開放。
+						<div style="text-align: center; margin-bottom: 10px;">
+                            <img src="https://ak-d.tripcdn.com/images/1mi6h12000c924sgsFCE4_W_640_0_R5_Q80.jpg?proc=source/trip" alt="天守閣配置圖" style="max-width: 100%; height: auto; border-radius: 5px; border: 1px solid #eee;">
+                        </div>
+                    </div>
+                </details>
+            </div>
+        </div>
+		<div class="item">
+			<div class="time">13:30</div>
+            <div class="content">
+                <strong>午餐：游玄亭 大阪店 (燒肉)</strong><br>
+                <span class="tag" style="background: #ffc107; color: #000;">⚠️ 尚未訂位 (預計 3/09 13:30)</span>
+                
+                <p style="margin-top: 10px;">
+                    <a href="https://booking.resty.jp/webrsv/search/s014005101/2888" target="_blank" style="color: #457b9d; font-size: 13px; font-weight: bold; text-decoration: underline;">🔗 訂位網站 1 (官方)</a> ｜ 
+                    <a href="https://restaurant.ikyu.com/114904/lunch?visitDate=2026-03-09&visitTime=13%3A30" target="_blank" style="color: #457b9d; font-size: 13px; font-weight: bold; text-decoration: underline;">🔗 訂位網站 2 (ikyu)</a> ｜ 
+					<a href="https://bobbyfun.tw/2024-03-03-3044/" target="_blank" style="color: #457b9d; font-size: 13px; font-weight: bold; text-decoration: underline;">🔗 訂位及餐廳介紹</a>
+                </p>
+
+                <div class="note" style="border-left-color: #ffc107; background: #fff3cd;">
+                    <strong>📝 訂位填寫資料備忘：</strong><br>
+                    • <strong>姓氏 (假名)：</strong>シャオ (Xiao)<br>
+                    • <strong>名字 (假名)：</strong>フェイシン (Huixin)<br>
+                    • <strong>手機號碼：</strong>台灣手機<br>
+					• <strong>電子郵件：</strong>＿＿＿＿<br>
+                    • <strong>地點：</strong>大阪城遊雲亭飯店新大谷 (旁邊有名偵探柯南銅像)
+                </div>
+                
+                <details style="border: 1px solid #ddd; border-radius: 8px; padding: 10px; background: #fff; margin-top: 10px;">
+                    <summary style="cursor: pointer; font-weight: bold; color: var(--accent-color);">
+                        📍 附近景點與推薦
+                    </summary>
+                    <div style="font-size: 13px; margin-top: 10px;">
+                        • <strong>走走逛逛：</strong>中之島公園 / 大阪天滿宮 / 大阪歷史博物館 / 豐國神社<br>
+                        • <strong>抹茶外帶：</strong>HOOP COFFEE / Step Coffee / SOT COFFEE / OSA COFFEE<br>
+                        • <strong>購物商場：</strong>JO-TERRACE OSAKA、Morinomiya Q’s MALL BASE
+                    </div>
+                </details>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="time">下午</div>
+            <div class="content">
+                <strong>交通：前往道頓堀 / 長堀橋</strong><br>
+                <span class="tag" style="background:#90ee90; color:#1d3557;">[N] 長堀鶴見綠地線</span>
+				<a href="https://img.gototravel.tw/2019/kyoto/transport/Hashidate-train/Image%2015.jpg" target="_blank" style="color: #457b9d; font-size: 13px; font-weight: bold; text-decoration: underline;">🗺️ [點擊查看]地鐵路線圖</a>
+                <p>搭乘區間：大阪商務園區 / 森之宮 → <strong>長堀橋站</strong></p>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="time">晚上</div>
+            <div class="content">
+                <strong>景點：道頓堀水上觀光船</strong><br>
+                <span class="tag" style="background: #ffe5ec; color: #d90429;">大阪周遊卡 (免費)</span>
+                <p>🕒 <strong>班次：</strong>11:00～21:00（00/30分出航，每趟 20min）</p>
+                <p>💰 <strong>原價：</strong>2,000 日圓</p>
+                <div class="note">
+                    ⚠️ <strong>重要提醒：</strong><br>
+                    傍晚以後的航班非常熱門，會提前售完。<br>
+					建議15:00左右或抵達道頓堀後，先去櫃檯兌換實體船票。
+                </div>
+            </div>
+        </div>
+    </section>
+
+	<section id="day3" class="day-card" style="border-left-color: #457b9d;">
+        <h2><i class="fa-solid fa-city"></i> Day 3：3/10 (二) 梅田（北區）</h2>
+        
+        <div class="item">
+            <div class="time">08:30</div>
+            <div class="content">
+                <strong>交通：心齋橋站 → 梅田站</strong><br>
+                <span class="tag" style="background:#e63946; color:white;">[M] 御堂筋線 ¥240</span>
+				<a href="https://v-osaka-subway.isv.com.tw/v3/common/images/route_map.pdf" target="_blank" style="color: #457b9d; font-size: 13px; font-weight: bold;">🗺️ [地鐵路線圖]</a>
+                <p>路線：心齋橋 → 本町 → 淀屋橋 → <strong>梅田站 (M16)</strong></p>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="time">09:00</div>
+            <div class="content">
+                <strong>早餐選擇</strong><br>
+                <p>📍 <strong>選手清單：</strong><br>
+                    1. Béchamel Café<br>
+                    2. Boo’s kitchen (飯糰)<br>
+                    3. 藍瓶咖啡 (梅田茶屋町店)<br>
+                    4. Tully’s Coffee
+                </p>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="time">10:00</div>
+            <div class="content">
+                <strong>梅田藍天大廈－空中庭園展望台</strong><br>
+                <span class="tag" style="background: #ffe5ec; color: #d90429;">大阪周遊卡 (15:00 前免費)</span>
+                <p>🚶 <strong>登頂路線：</strong>3F 排隊 → 搭乘玻璃電梯至 35F → 超長手扶梯至 39F → 頂樓空中花園。</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="time">12:30</div>
+            <div class="content">
+                <strong>午餐選擇</strong><br>
+                <p>📍 <strong>選手清單：</strong><br>
+                    1. 滝見小路 (展望台 B1 昭和復古街)<br>
+                    2. 鰻魚飯 - Unagi Kushiyaki Izumo (LUCUA 百貨)
+                </p>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="time">下午</div>
+            <div class="content">
+                <strong>梅田吉伊卡哇店 (2 間攻略)</strong><br>
+                <details style="border: 1px solid #ddd; border-radius: 8px; padding: 10px; background: #fff;">
+                    <summary style="cursor: pointer; font-weight: bold; color: var(--accent-color);">
+                        🐹 吉伊卡哇分店詳細資訊
+                    </summary>
+                    <div style="font-size: 13px; margin-top: 10px;">
+                        <strong>📍 CHIIKAWA LAND 大阪梅田店</strong><br>
+                        • 商城：阪急三番街 (南館 B1)<br>
+                        • 營業時間：10:00～21:00<br><br>
+                        <strong>📍 magical chiikawa 梅田 HEP FIVE 店</strong><br>
+                        • 商城：HEP FIVE (B1)<br>
+                        • 營業時間：11:00～21:00
+                    </div>
+                </details>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="time">16:00</div>
+            <div class="content">
+                <strong>梅田百貨大戰 (伴手禮攻略)</strong><br>
+                <p>💡 <strong>必拿優惠：</strong>阪急百貨 B1 退稅櫃台憑台灣護照領 <strong>95 折券</strong>。</p>
+                <details style="border: 1px solid #ddd; border-radius: 8px; padding: 10px; background: #fff;">
+                    <summary style="cursor: pointer; font-weight: bold; color: var(--accent-color);">
+                        🎁 各大百貨必買清單
+                    </summary>
+                    <div style="font-size: 13px; margin-top: 10px;">
+                        <strong>🛍️ 阪急百貨 (B1)</strong><br>
+                        • 辻利兵衛本店 (抹茶)<br>
+                        • Henri Charpentier (費南雪)<br><br>
+                        <strong>🛍️ 阪神百貨 (B1)</strong><br>
+                        • VANI (香草夾心餅乾)<br>
+                        • CLUB HARIE (年輪蛋糕)<br><br>
+                        <strong>🛍️ LUCUA</strong><br>
+                        • PRESS BUTTER SAND (抹茶)<br>
+                        • <a href="https://youtube.com/shorts/CGhLrBEV_Xc?si=e58XcNtdsXfSeKBc" target="_blank" style="color: #457b9d; font-weight: bold; text-decoration: underline;">🎥 點我看 LUCUA 逛街攻略</a>
+                    </div>
+                </details>
+            </div>
+        </div>
+		
+		<div class="item">
+            <div class="time"></div>
+            <div class="content">
+                <strong>梅田分區逛街全攻略 (南口 vs 北口)</strong><br>
+                <p>
+                    <a href="https://www.instagram.com/reel/DUDN0CPAQZ9/?igsh=MXhvcHowNHVzZTZodQ==" target="_blank" style="color: #457b9d; font-size: 13px; font-weight: bold; text-decoration: underline;">🎬 必看：梅田百貨公司攻略影片</a>
+                </p>
+
+                <details style="border: 1px solid #ddd; border-radius: 8px; padding: 10px; background: #fff; margin-top: 10px;">
+                    <summary style="cursor: pointer; font-weight: bold; color: var(--accent-color);">
+                        📍 南出口：精品、寶可夢、地下街 ⬇️
+                    </summary>
+                    <div style="font-size: 13px; margin-top: 10px;">
+                        <p><a href="https://www.youtube.com/watch?v=NMzbHSwVfSU" target="_blank" style="color: #457b9d; text-decoration: underline;">🎥 南出口動線導覽影片</a></p>
+                        • <strong>大丸百貨 (13F)：</strong>寶可夢中心 (Pokémon Center)。<br>
+                        • <strong>阪急百貨 (左側)：</strong>精品大牌、日系服飾、精緻小禮物/點心。<br>
+                        • <strong>阪神百貨 (直走)：</strong>甜點戰區。<br>
+                        • <strong>Whity 地下街 (靠近東梅田)：</strong>推薦 <span class="important">I'm donut ?</span> 姊妹店「We Donut」。
+                    </div>
+                </details>
+
+                <details style="border: 1px solid #ddd; border-radius: 8px; padding: 10px; background: #fff; margin-top: 10px;">
+                    <summary style="cursor: pointer; font-weight: bold; color: var(--accent-color);">
+                        📍 北出口：服飾、3C、生活雜貨 ⬆️
+                    </summary>
+                    <div style="font-size: 13px; margin-top: 10px;">
+                        • <strong>LUCUA 1100 (左棟)：</strong>3F @Cosme、10F 餐廳區。<br>
+                        • <strong>LUCUA (右棟)：</strong>日系服飾品牌 (有 lululemon)。<br>
+                        • <strong>Grand Front：</strong>北館 2-4F 超大無印良品 (MUJI)。<br>
+                        • <strong>Yodobashi Camera：</strong>3C、電器、扭蛋機、行李箱。<br>
+                        • <strong>Links Umeda：</strong>推薦 <span class="important">AINZ & TULPE</span> (美妝美髮產品)。<br>
+                        • <strong>阪急三番街：</strong>吉伊卡哇 (免排隊秘訣：門口顯示 Free 入場)。
+                    </div>
+                </details>
+
+                <details style="border: 1px solid #ddd; border-radius: 8px; padding: 10px; background: #fff; margin-top: 10px;">
+                    <summary style="cursor: pointer; font-weight: bold; color: var(--accent-color);">
+                        📍 周邊：茶屋町、HEP FIVE 🎡
+                    </summary>
+                    <div style="font-size: 13px; margin-top: 10px;">
+                        • <strong>茶屋町：</strong>文青氛圍、唐吉訶德 (梅田店)。<br>
+                        • <strong>HEP FIVE：</strong>紅色摩天輪地標、年輕人服飾。<br>
+                        • <strong>EST：</strong>潮流辣妹系服飾專區。
+                    </div>
+                </details>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="time">19:00</div>
+            <div class="content">
+                <strong>晚餐選擇</strong><br>
+                <p>📍 <strong>選手清單：</strong><br>
+                    1. 燒肉力丸 (梅田店)<br>
+                    2. 鰻魚飯 - 中庄 (LINKS UMEDA)<br>
+                    3. 鰻魚飯 - Izumo (LUCUA)
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+	<section id="day4" class="day-card" style="border-left-color: #f4a261;">
+        <h2><i class="fa-solid fa-shinto-shrine"></i> Day 4：3/11 (三) 勝尾寺與難波美食</h2>
+        
+        <div class="item">
+            <div class="time">07:30</div>
+            <div class="content">
+                <strong>早餐與出發準備</strong><br>
+                <p>📍 <strong>早餐選手：</strong>すき家 (Sukiya)、麥當勞、星巴克或超商。</p>
+                <div class="note">⚠️ <strong>重要提醒：</strong>出發前請確認 ICOCA 餘額，建議儲值至少 <span class="important">¥2700</span>。</div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="time">08:41</div>
+            <div class="content">
+                <strong>交通：前往勝尾寺 (地鐵 + 公車)</strong><br>
+                <span class="tag" style="background:#e63946; color:white;">[M] 御堂筋線 ¥530</span>
+                <p>1. <strong>地鐵：</strong>心齋橋站 → 箕面萱野站 (終點站)。</p>
+                <p>2. <strong>轉乘：</strong>出站後往「北出口」→ 右轉下電扶梯 → 抵達巴士站。</p>
+                <p>3. <strong>公車 (09:30)：</strong>8 號月台搭乘 <strong>30 號直達車</strong> (¥800)。</p>
+                <div class="note">🌟 <strong>搭車規則：</strong><br>
+				－公車後門上車刷卡，前門下車刷卡。<br>
+				－班次：平日 09:00–15:00 每 30 分一班</div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="time">10:00</div>
+            <div class="content">
+                <strong>勝尾寺 (勝運祈願)</strong><br>
+                <span class="tag">出示 QR Code 入場</span>
+				<span class="tag">拿明信片</span>
+                <p>📍 <strong>參拜重點：</strong>山門、淨身橋、弁財天社、智慧之環、本堂。</p>
+				<details style="border: 1px solid #ddd; border-radius: 8px; padding: 10px; background: #fff; margin-top: 10px;">
+                    <summary style="cursor: pointer; font-weight: bold; color: var(--accent-color);">
+                        ⛩️ 點我看：參拜動線 (各點介紹)
+                    </summary>
+                    <div style="font-size: 13px; margin-top: 10px; line-height: 1.8;">
+                        • <strong>山門 (勝王寺)：</strong>1601 年由豐臣秀賴重建。通過山門後記得回頭看背面的匾額。<br>
+                        • <strong>淨身橋 (お清め橋)：</strong>橋上的霧氣代表淨身，洗去穢氣後再進入境內。<br>
+                        • <strong>弁財天社：</strong>祭祀女神薩拉斯瓦蒂。掌管藝能、智慧、財運與生意興隆。<br>
+                        • <strong>智慧之環：</strong>建議參拜完本堂後再去。順時針繞 7 圈，抵達中心後再逆時針繞 7 圈。<br>
+                        • <strong>勝利達摩奉納棚：</strong>位於多寶塔左側。擺滿了心願達成的達摩。<br>
+                        • <strong>三寶荒神堂：</strong>日本最古老的荒神神堂，守護佛法僧三寶，可驅除煩惱。<br>
+                        • <strong>本堂：</strong>供奉「十一面千手觀音」。先在對面領取達摩後再來此參拜。<br>
+                        • <strong>二階堂：</strong>境內地勢最高建築。法然上人曾在此停留修行 4 年。<br>
+                        • <strong>境內小達摩：</strong>到處可見的小達摩是遊客抽完「六十四卦達摩籤」後留下的風景。
+                    </div>
+                    <p style="text-align: center; margin-top: 10px;">
+                        <a href="https://www.gltjp.com/zh-hant/article/item/21264/" target="_blank" style="color: #457b9d; font-size: 12px; text-decoration: underline;">🔗 查看詳細介紹</a>
+                    </p>
+                </details>
+                
+				<details style="border: 1px solid #ddd; border-radius: 8px; padding: 10px; background: #fff; margin-top: 10px;">
+					<summary style="cursor: pointer; font-weight: bold; color: var(--accent-color);">
+						🕯️ 勝利達摩許願步驟
+					</summary>
+					<div style="font-size: 13px; margin-top: 10px; line-height: 1.6;">
+						<p><strong>🌟 許願階段：戰勝自我的誓言</strong></p>
+						1. <strong>選擇：</strong>憑直覺選一尊有緣的「勝利達摩 (勝ちダルマ)」。<br>
+						2. <strong>底部書寫：</strong>在達摩底部寫下「人生的目的」。<br>
+						3. <strong>背面書寫：</strong>在背面寫下希望在「365 天後達成的目標」。<br>
+						4. <strong>薰香淨化：</strong>點燃線香，讓蘊含感謝心意的煙霧薰染達摩。<br>
+						5. <strong>點立誓之眼：</strong>在達摩的<span class="important">右眼</span>簽名並塗黑，為達摩點上第一隻眼睛。<br><br>
+
+						<p><strong>📅 執行階段：每日確認與反思</strong></p>
+						6. <strong>每日確認：</strong>使用官網下載的「生命沙漏」日曆進行反思。<br>
+						7. <strong>自我評價：</strong>若當天已全力以赴，便將日曆上的「○」塗成黑色。<br><br>
+
+						<p><strong>🙏 成就回報：感恩與奉納</strong></p>
+						8. <strong>點完成之眼：</strong>願望實現後，為達摩畫上<span class="important">左眼</span>作為目標達成的證明。<br>
+						9. <strong>向佛回報：</strong>前往本堂向佛前回報成果，並表達感謝之意。<br>
+						10. <strong>奉納達摩：</strong>懷著感恩的心，將達摩奉納於寺內的「達摩棚」上。
+					</div>
+				</details>
+
+				<details style="border: 1px solid #ddd; border-radius: 8px; padding: 10px; background: #fff; margin-top: 10px;">
+					<summary style="cursor: pointer; font-weight: bold; color: var(--accent-color);">
+						📜 御朱印與達摩籤資訊
+					</summary>
+					<div style="font-size: 13px; margin-top: 10px; line-height: 1.6;">
+						<strong>🔮 六十四卦達摩籤 (六十四卦ダルマみくじ)</strong><br>
+						• <strong>獨家占得：</strong>只能在勝尾寺取得，指引參拜者人生方向。<br>
+						• <strong>數位閱讀：</strong>附有 QR Code，可用手機掃描閱讀內容。<br>
+						• <strong>後續處理：</strong>可依「結緣」意義綁在境內指定位置，小達摩則可帶回紀念。<br><br>
+
+						<strong>✍️ 御朱印領取 (本堂右側「總合受付所」)</strong><br>
+						• <strong>三種種類：</strong>「西國三十三所」、「御詠歌」、法然上人二十五靈場之「圓光大師」。<br>
+						• <strong>貼心服務：</strong>若無攜帶御朱印帳，可選貼紙型，且「西國三十三所」會附贈解說紙。<br><br>
+
+						<strong>🎁 授與品與紀念品</strong><br>
+						• <strong>領取地點：</strong>本堂正對面「本堂前御授所」。<br>
+						• <strong>返納供養：</strong>原則上 1 年後返納焚燒，但作為紀念品自行保存也沒問題。<br>
+						• <strong>休憩所販售：</strong>入口處休憩所亦有販售點心與達摩玩偶等紀念品。
+					</div>
+				</details>
+            </div>
+        </div>
+
+		<div class="item">
+			<div class="time">12:00</div>
+			<div class="content">
+				<strong>交通：勝尾寺 → 箕面萱野</strong><br>
+				<p>🚌 <strong>【公車】勝尾寺 → 箕面萱野 ¥800</strong></p>
+				<p>🕒 <strong>平日班次：</strong>11:20～16:50 每 30 分一班，17:05 最後一班。</p>
+				<div class="note">🌟 <strong>搭車提醒：</strong>後門上車刷卡，前門下車刷卡。</div>
+			</div>
+		</div>
+
+        <div class="item">
+            <div class="time">12:30</div>
+            <div class="content">
+                <strong>午餐：TIERRA LUZ VIENTO</strong><br>
+                <p>📍 地點：箕面 Q’s MALL</p>
+                <details>
+                    <summary>🥞 推薦菜單 (點擊展開)</summary>
+                    <table>
+                        <tr><th>類別</th><th>推薦項目</th><th>價格</th></tr>
+                        <tr><td>吐司</td><td>紅豆奶油 / 巧克力榛果</td><td>¥1,180~</td></tr>
+                        <tr><td>主食</td><td>香料咖哩漢堡排 / 烤豬肉餐盤</td><td>¥1,190~</td></tr>
+                        <tr><td>飲品</td><td>純抹茶鮮奶 / 燕麥優格</td><td>-</td></tr>
+                    </table>
+                </details>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="time">18:00</div>
+            <div class="content">
+                <strong>晚餐：新宿焼肉 牛たんの檸檬</strong><br>
+                <span class="tag" style="background: #ffc107; color: #000;">⚠️ 務必預約</span>
+                <p>📍 <strong>地點：</strong>日本一歯科センタービル 1F 
+                    <a href="https://maps.app.goo.gl/bM1NcwMNCMRcPhrd8" target="_blank" style="color: #457b9d; font-weight: bold;">🗺️ [Google Map]</a>
+                </p>
+
+                <details style="border: 1px solid #ddd; border-radius: 8px; padding: 10px; background: #fff;">
+                    <summary style="cursor: pointer; font-weight: bold; color: var(--accent-color);">
+                        🍖 必點牛舌定食清單
+                    </summary>
+                    <div style="font-size: 13px; margin-top: 10px;">
+                        • <strong>「極」厚切牛舌定食：</strong>¥3,390 (附羽釜飯、牛舌湯、咖哩、山藥泥)。<br>
+                        • <strong>A5 黑毛和牛雙拼：</strong>¥3,980 起。<br>
+                        • <strong>加購推薦：</strong>鮭魚卵生雞蛋拌飯 (+¥1,100)。<br>
+                        • <strong>飲品：</strong>招牌檸檬沙瓦 / 檸檬水 (¥550)。
+                    </div>
+                </details>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="time">19:30</div>
+            <div class="content">
+                <strong>難波周邊逛街</strong><br>
+                <p>📍 千日前商店街、高島屋、Bic Camera、難波丸井。</p>
+            </div>
+        </div>
+    </section>
+
+    <div style="text-align: center; color: #888; font-style: italic;">... 更多詳細行程請查看 PDF 備份 ...</div>
+
+</div>
+
+<footer>
+    <p>© 2026 Osaka Travel | 預祝旅途愉快！</p>
+</footer>
+
+</body>
+</html>
